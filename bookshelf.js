@@ -35,7 +35,8 @@ btn_brwbook.on("click", getMyLocationURL());
 
 
 
-function getMyLocationURL() {
+function getMyLocationURL() 
+{
     var longitude;
     var latitude;
     var api_key = "pk.eyJ1IjoicmV2ZXJiMTk3MSIsImEiOiJjazF3Zmk4bm0wMDRsM2tvN3k3dHQycXZqIn0.0lNTs0Y0eLfFZDfO_GcT8g";
