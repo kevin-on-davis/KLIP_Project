@@ -1,0 +1,1531 @@
+{
+    "kml": {
+      "-xmlns": "http://www.opengis.net/kml/2.2",
+      "Document": {
+        "Placemark": [
+          {
+            "-id": "LIB02",
+            "name": "Agincourt",
+            "description": {
+              "#text": [
+                "
+  Address: 155 Bonis Ave., Toronto, ON, M1T 3W6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB02
+  "
+              ]
+            },
+            "address": "155 Bonis Ave., Toronto, ON, M1T 3W6",
+            "phoneNumber": "416-396-8943",
+            "Point": { "coordinates": "-79.29342962962961,43.78516666666665" }
+          },
+          {
+            "-id": "LIB03",
+            "name": "Albert Campbell",
+            "description": {
+              "#text": [
+                "
+  Address: 496 Birchmount Road, Toronto, ON, M1K 1N8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB03
+  "
+              ]
+            },
+            "address": "496 Birchmount Road, Toronto, ON, M1K 1N8",
+            "phoneNumber": "416-396-8890",
+            "Point": { "coordinates": "-79.26925185185183,43.708018518518514" }
+          },
+          {
+            "-id": "LIB04",
+            "name": "Albion",
+            "description": {
+              "#text": [
+                "
+  Address: 1515 Albion Road, Toronto, ON, M9V 1B2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB04
+  "
+              ]
+            },
+            "address": "1515 Albion Road, Toronto, ON, M9V 1B2",
+            "phoneNumber": "416-394-5170",
+            "Point": { "coordinates": "-79.58409629629628,43.7398259259259" }
+          },
+          {
+            "-id": "LIB020",
+            "name": "Alderwood",
+            "description": {
+              "#text": [
+                "
+  Address: 2 Orianna Drive, Toronto, ON, M8W 4Y1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB020
+  "
+              ]
+            },
+            "address": "2 Orianna Drive, Toronto, ON, M8W 4Y1",
+            "phoneNumber": "416-394-5310",
+            "Point": { "coordinates": "-79.54725185185184,43.60194444444441" }
+          },
+          {
+            "-id": "LIB021",
+            "name": "Amesbury Park",
+            "description": {
+              "#text": [
+                "
+  Address: 1565 Lawrence Ave. W., Toronto, ON, M6L 1A8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB021
+  "
+              ]
+            },
+            "address": "1565 Lawrence Ave. W., Toronto, ON, M6L 1A8",
+            "phoneNumber": "416-395-5420",
+            "Point": { "coordinates": "-79.4857259259259,43.706455555555536" }
+          },
+          {
+            "-id": "LIB022",
+            "name": "Annette Street",
+            "description": {
+              "#text": [
+                "
+  Address: 145 Annette Street, Toronto, ON, M6P 1P3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB022
+  "
+              ]
+            },
+            "address": "145 Annette Street, Toronto, ON, M6P 1P3",
+            "phoneNumber": "416-393-7692",
+            "Point": { "coordinates": "-79.46634814814814,43.66335925925924" }
+          },
+          {
+            "-id": "LIB023",
+            "name": "Armour Heights",
+            "description": {
+              "#text": [
+                "
+  Address: 2140 Avenue Road, Toronto, ON, M5M 4M7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB023
+  "
+              ]
+            },
+            "address": "2140 Avenue Road, Toronto, ON, M5M 4M7",
+            "phoneNumber": "416-395-5430",
+            "Point": { "coordinates": "-79.42188888888888,43.73933703703702" }
+          },
+          {
+            "-id": "LIB05",
+            "name": "Barbara Frum",
+            "description": {
+              "#text": [
+                "
+  Address: 20 Covington Road, Toronto, ON, M6A 3C1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB05
+  "
+              ]
+            },
+            "address": "20 Covington Road, Toronto, ON, M6A 3C1",
+            "phoneNumber": "416-395-5440",
+            "Point": { "coordinates": "-79.43221481481477,43.72075185185185" }
+          },
+          {
+            "-id": "LIB024",
+            "name": "Bayview",
+            "description": {
+              "#text": [
+                "
+  Address: 2901 Bayview Ave., Bayview Village Shopping Centre, Toronto, ON, M2K 1E6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB024
+  "
+              ]
+            },
+            "address": "
+  2901 Bayview Ave., Bayview Village Shopping Centre, Toronto, ON, M2K 1E6
+  ",
+            "phoneNumber": "416-395-5460",
+            "Point": { "coordinates": "-79.38499999999999,43.76885555555552" }
+          },
+          {
+            "-id": "LIB025",
+            "name": "Beaches",
+            "description": {
+              "#text": [
+                "
+  Address: 2161 Queen Street East, Toronto, ON, M4L 1J1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB025
+  "
+              ]
+            },
+            "address": "2161 Queen Street East, Toronto, ON, M4L 1J1",
+            "phoneNumber": "416-393-7703",
+            "Point": { "coordinates": "-79.29852592592593,43.670129629629606" }
+          },
+          {
+            "-id": "LIB026",
+            "name": "Bendale",
+            "description": {
+              "#text": [
+                "
+  Address: 1515 Danforth Road, Toronto, ON, M1J 1H5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB026
+  "
+              ]
+            },
+            "address": "1515 Danforth Road, Toronto, ON, M1J 1H5",
+            "phoneNumber": "416-396-8910",
+            "Point": { "coordinates": "-79.24405185185185,43.75106296296295" }
+          },
+          {
+            "-id": "LIB027",
+            "name": "Black Creek",
+            "description": {
+              "#text": [
+                "
+  Address: 1700 Wilson Ave., North York Sheridan Mall, Toronto, ON, M3L 1B2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB027
+  "
+              ]
+            },
+            "address": "
+  1700 Wilson Ave., North York Sheridan Mall, Toronto, ON, M3L 1B2
+  ",
+            "phoneNumber": "416-395-5470",
+            "Point": { "coordinates": "-79.51046666666666,43.72121851851851" }
+          },
+          {
+            "-id": "LIB06",
+            "name": "Bloor/Gladstone",
+            "description": {
+              "#text": [
+                "
+  Address: 1101 Bloor Street West, Toronto, ON, M6H 1M7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB06
+  "
+              ]
+            },
+            "address": "1101 Bloor Street West, Toronto, ON, M6H 1M7",
+            "phoneNumber": "416-393-7674",
+            "Point": { "coordinates": "-79.43402222222222,43.659877777777766" }
+          },
+          {
+            "-id": "LIB07",
+            "name": "Brentwood",
+            "description": {
+              "#text": [
+                "
+  Address: 36 Brentwood Road North, Toronto, ON, M8X 2B5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB07
+  "
+              ]
+            },
+            "address": "36 Brentwood Road North, Toronto, ON, M8X 2B5",
+            "phoneNumber": "416-394-5240",
+            "Point": { "coordinates": "-79.51425925925925,43.64744814814814" }
+          },
+          {
+            "-id": "LIB028",
+            "name": "Bridlewood",
+            "description": {
+              "#text": [
+                "
+  Address: 2900 Warden Ave., Bridlewood Mall, Toronto, ON, M1W 2S8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB028
+  "
+              ]
+            },
+            "address": "
+  2900 Warden Ave., Bridlewood Mall, Toronto, ON, M1W 2S8
+  ",
+            "phoneNumber": "416-396-8960",
+            "Point": { "coordinates": "-79.31777037037037,43.79714444444444" }
+          },
+          {
+            "-id": "LIB029",
+            "name": "Brookbanks",
+            "description": {
+              "#text": [
+                "
+  Address: 210 Brookbanks Dr., Toronto, ON, M3A 2T8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB029
+  "
+              ]
+            },
+            "address": "210 Brookbanks Dr., Toronto, ON, M3A 2T8",
+            "phoneNumber": "416-395-5480",
+            "Point": { "coordinates": "-79.32590370370369,43.7595074074074" }
+          },
+          {
+            "-id": "LIB030",
+            "name": "Burrows Hall",
+            "description": {
+              "#text": [
+                "
+  Address: 1081 Progress Ave., Toronto, ON, M1B 5Z6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB030
+  "
+              ]
+            },
+            "address": "1081 Progress Ave., Toronto, ON, M1B 5Z6",
+            "phoneNumber": "416-396-8740",
+            "Point": { "coordinates": "-79.23422962962961,43.79388518518518" }
+          },
+          {
+            "-id": "LIB08",
+            "name": "Cedarbrae",
+            "description": {
+              "#text": [
+                "
+  Address: 545 Markham Road, Toronto, ON, M1H 2A1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB08
+  "
+              ]
+            },
+            "address": "545 Markham Road, Toronto, ON, M1H 2A1",
+            "phoneNumber": "416-396-8850",
+            "Point": { "coordinates": "-79.22396296296296,43.75752962962963" }
+          },
+          {
+            "-id": "LIB031",
+            "name": "Centennial",
+            "description": {
+              "#text": [
+                "
+  Address: 578 Finch Ave. West, Toronto, ON, M2R 1N7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB031
+  "
+              ]
+            },
+            "address": "578 Finch Ave. West, Toronto, ON, M2R 1N7",
+            "phoneNumber": "416-395-5490",
+            "Point": { "coordinates": "-79.44957777777775,43.77298888888886" }
+          },
+          {
+            "-id": "LIB032",
+            "name": "City Hall",
+            "description": {
+              "#text": [
+                "
+  Address: 100 Queen Street West, Nathan Phillips Square, Toronto, ON, M5H 2N3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB032
+  "
+              ]
+            },
+            "address": "
+  100 Queen Street West, Nathan Phillips Square, Toronto, ON, M5H 2N3
+  ",
+            "phoneNumber": "416-393-7650",
+            "Point": { "coordinates": "-79.38399259259257,43.65336666666666" }
+          },
+          {
+            "-id": "LIB033",
+            "name": "Cliffcrest",
+            "description": {
+              "#text": [
+                "
+  Address: 3017 Kingston Road, Toronto, ON, M1M 1P1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB033
+  "
+              ]
+            },
+            "address": "3017 Kingston Road, Toronto, ON, M1M 1P1",
+            "phoneNumber": "416-396-8916",
+            "Point": { "coordinates": "-79.23077,43.72517" }
+          },
+          {
+            "-id": "LIB034",
+            "name": "College/Shaw",
+            "description": {
+              "#text": [
+                "
+  Address: 766 College Street, Toronto, ON, M6G 1C4",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB034
+  "
+              ]
+            },
+            "address": "766 College Street, Toronto, ON, M6G 1C4",
+            "phoneNumber": "416-393-7668",
+            "Point": { "coordinates": "-79.4201111111111,43.65515925925925" }
+          },
+          {
+            "-id": "LIB035",
+            "name": "Danforth/Coxwell",
+            "description": {
+              "#text": [
+                "
+  Address: 1675 Danforth Ave., Toronto, ON, M4C 5P2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB035
+  "
+              ]
+            },
+            "address": "1675 Danforth Ave., Toronto, ON, M4C 5P2",
+            "phoneNumber": "416-393-7783",
+            "Point": { "coordinates": "-79.32139999999998,43.683574074074066" }
+          },
+          {
+            "-id": "LIB036",
+            "name": "Davenport",
+            "description": {
+              "#text": [
+                "
+  Address: 1246 Shaw Street, Toronto, ON, M6G 3P1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB036
+  "
+              ]
+            },
+            "address": "1246 Shaw Street, Toronto, ON, M6G 3P1",
+            "phoneNumber": "416-393-7732",
+            "Point": { "coordinates": "-79.42845185185184,43.67452962962962" }
+          },
+          {
+            "-id": "LIB037",
+            "name": "Dawes Road",
+            "description": {
+              "#text": [
+                "
+  Address: 416 Dawes Road, Toronto, ON, M4B 2E8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB037
+  "
+              ]
+            },
+            "address": "416 Dawes Road, Toronto, ON, M4B 2E8",
+            "phoneNumber": "416-396-3820",
+            "Point": { "coordinates": "-79.29732592592592,43.70117407407407" }
+          },
+          {
+            "-id": "LIB038",
+            "name": "Deer Park",
+            "description": {
+              "#text": [
+                "
+  Address: 40 St. Clair Ave. E., Toronto, ON, M4T 1M9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB038
+  "
+              ]
+            },
+            "address": "40 St. Clair Ave. E., Toronto, ON, M4T 1M9",
+            "phoneNumber": "416-393-7657",
+            "Point": { "coordinates": "-79.39248148148147,43.68858148148147" }
+          },
+          {
+            "-id": "LIB09",
+            "name": "Don Mills",
+            "description": {
+              "#text": [
+                "
+  Address: 888 Lawrence Ave. East, Toronto, ON, M3C 1P6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB09
+  "
+              ]
+            },
+            "address": "888 Lawrence Ave. East, Toronto, ON, M3C 1P6",
+            "phoneNumber": "416-395-5710",
+            "Point": { "coordinates": "-79.34734074074075,43.73664074074071" }
+          },
+          {
+            "-id": "LIB039",
+            "name": "Downsview",
+            "description": {
+              "#text": [
+                "
+  Address: 2793 Keele Street, Toronto, ON, M3M 2G3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB039
+  "
+              ]
+            },
+            "address": "2793 Keele Street, Toronto, ON, M3M 2G3",
+            "phoneNumber": "416-395-5720",
+            "Point": { "coordinates": "-79.48205185185185,43.72887037037032" }
+          },
+          {
+            "-id": "LIB040",
+            "name": "Dufferin/St. Clair",
+            "description": {
+              "#text": [
+                "
+  Address: 1625 Dufferin Street, Toronto, ON, M6H 3L9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB040
+  "
+              ]
+            },
+            "address": "1625 Dufferin Street, Toronto, ON, M6H 3L9",
+            "phoneNumber": "416-393-7712",
+            "Point": { "coordinates": "-79.4424074074074,43.67692962962961" }
+          },
+          {
+            "-id": "LIB041",
+            "name": "Eatonville",
+            "description": {
+              "#text": [
+                "
+  Address: 430 Burnhamthorpe Road, Toronto, ON, M9B 2B1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB041
+  "
+              ]
+            },
+            "address": "430 Burnhamthorpe Road, Toronto, ON, M9B 2B1",
+            "phoneNumber": "416-394-5270",
+            "Point": { "coordinates": "-79.55916296296293,43.6461222222222" }
+          },
+          {
+            "-id": "LIB042",
+            "name": "Eglinton Square",
+            "description": {
+              "#text": [
+                "
+  Address: 1 Eglinton Square, Unit 126, Eglinton Square Shopping Centre, Toronto, ON, M1L 2K1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB042
+  "
+              ]
+            },
+            "address": "
+  1 Eglinton Square, Unit 126, Eglinton Square Shopping Centre, Toronto, ON, M1L 2K1
+  ",
+            "phoneNumber": "416-396-8920",
+            "Point": { "coordinates": "-79.30033333333333,43.723685185185175" }
+          },
+          {
+            "-id": "LIB043",
+            "name": "Elmbrook Park",
+            "description": {
+              "#text": [
+                "
+  Address: 2 Elmbrook Cres., Toronto, ON, M9C 5B4",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB043
+  "
+              ]
+            },
+            "address": "2 Elmbrook Cres., Toronto, ON, M9C 5B4",
+            "phoneNumber": "416-394-5290",
+            "Point": { "coordinates": "-79.58384444444444,43.6601222222222" }
+          },
+          {
+            "-id": "LIB044",
+            "name": "Evelyn Gregory",
+            "description": {
+              "#text": [
+                "
+  Address: 120 Trowell Ave., Toronto, ON, M6M 1L7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB044
+  "
+              ]
+            },
+            "address": "120 Trowell Ave., Toronto, ON, M6M 1L7",
+            "phoneNumber": "416-394-1006",
+            "Point": { "coordinates": "-79.47234814814814,43.68618888888887" }
+          },
+          {
+            "-id": "LIB010",
+            "name": "Fairview",
+            "description": {
+              "#text": [
+                "
+  Address: 35 Fairview Mall Dr., Toronto, ON, M2J 4S4",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB010
+  "
+              ]
+            },
+            "address": "35 Fairview Mall Dr., Toronto, ON, M2J 4S4",
+            "phoneNumber": "416-395-5750",
+            "Point": { "coordinates": "-79.34664444444443,43.77902592592591" }
+          },
+          {
+            "-id": "LIB045",
+            "name": "Flemingdon Park",
+            "description": {
+              "#text": [
+                "
+  Address: 29 St. Dennis Dr., Toronto, ON, M3C 3J3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB045
+  "
+              ]
+            },
+            "address": "29 St. Dennis Dr., Toronto, ON, M3C 3J3",
+            "phoneNumber": "416-395-5820",
+            "Point": { "coordinates": "-79.33175555555552,43.717811111111104" }
+          },
+          {
+            "-id": "LIB046",
+            "name": "Forest Hill",
+            "description": {
+              "#text": [
+                "
+  Address: 700 Eglinton Ave. West, Toronto, ON, M5N 1B9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB046
+  "
+              ]
+            },
+            "address": "700 Eglinton Ave. West, Toronto, ON, M5N 1B9",
+            "phoneNumber": "416-393-7706",
+            "Point": { "coordinates": "-79.42057037037035,43.702366666666634" }
+          },
+          {
+            "-id": "LIB140",
+            "name": "Fort York",
+            "description": {
+              "#text": [
+                "
+  Address: 190 Fort York Boulevard, Toronto, ON M5V 0E7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB140
+  "
+              ]
+            },
+            "address": "190 Fort York Boulevard, Toronto, ON M5V 0E7",
+            "phoneNumber": "416-393-6240",
+            "Point": { "coordinates": "-79.4003296,43.6393204" }
+          },
+          {
+            "-id": "LIB047",
+            "name": "Gerrard/Ashdale",
+            "description": {
+              "#text": [
+                "
+  Address: 1432 Gerrard Street East, Toronto, ON, M4L 1Z6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB047
+  "
+              ]
+            },
+            "address": "1432 Gerrard Street East, Toronto, ON, M4L 1Z6",
+            "phoneNumber": "416-393-7717",
+            "Point": { "coordinates": "-79.3221259259259,43.67246296296294" }
+          },
+          {
+            "-id": "LIB048",
+            "name": "Goldhawk Park",
+            "description": {
+              "#text": [
+                "
+  Address: 295 Alton Towers Circle, Toronto, ON, M1V 4P1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB048
+  "
+              ]
+            },
+            "address": "295 Alton Towers Circle, Toronto, ON, M1V 4P1",
+            "phoneNumber": "416-396-8964",
+            "Point": { "coordinates": "-79.27799259259261,43.82397407407406" }
+          },
+          {
+            "-id": "LIB139",
+            "name": "Guildwood",
+            "description": {
+              "#text": [
+                "
+  Address: 123 Guildwood Parkway, Guildwood Plaza, Toronto, ON, M1E 4V2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB139
+  "
+              ]
+            },
+            "address": "
+  123 Guildwood Parkway, Guildwood Plaza, Toronto, ON, M1E 4V2
+  ",
+            "phoneNumber": "416-396-8872",
+            "Point": { "coordinates": "-79.1998888888889,43.74667037037035" }
+          },
+          {
+            "-id": "LIB049",
+            "name": "High Park",
+            "description": {
+              "#text": [
+                "
+  Address: 228 Roncesvalles Ave., Toronto, ON, M6R 2L7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB049
+  "
+              ]
+            },
+            "address": "228 Roncesvalles Ave., Toronto, ON, M6R 2L7",
+            "phoneNumber": "416-393-7671",
+            "Point": { "coordinates": "-79.44898518518518,43.645203703703686" }
+          },
+          {
+            "-id": "LIB050",
+            "name": "Highland Creek",
+            "description": {
+              "#text": [
+                "
+  Address: 3550 Ellesmere Road, Toronto, ON, M1C 3Z2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB050
+  "
+              ]
+            },
+            "address": "3550 Ellesmere Road, Toronto, ON, M1C 3Z2",
+            "phoneNumber": "416-396-8876",
+            "Point": { "coordinates": "-79.17520740740741,43.789959259259255" }
+          },
+          {
+            "-id": "LIB051",
+            "name": "Hillcrest",
+            "description": {
+              "#text": [
+                "
+  Address: 5801 Leslie Street, Toronto, ON, M2H 1J8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB051
+  "
+              ]
+            },
+            "address": "5801 Leslie Street, Toronto, ON, M2H 1J8",
+            "phoneNumber": "416-395-5830",
+            "Point": { "coordinates": "-79.36904444444444,43.797025925925915" }
+          },
+          {
+            "-id": "LIB052",
+            "name": "Humber Bay",
+            "description": {
+              "#text": [
+                "
+  Address: 200 Park Lawn Road, Toronto, ON, M8Y 3J1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB052
+  "
+              ]
+            },
+            "address": "200 Park Lawn Road, Toronto, ON, M8Y 3J1",
+            "phoneNumber": "416-394-5300",
+            "Point": { "coordinates": "-79.4911925925926,43.62995925925924" }
+          },
+          {
+            "-id": "LIB053",
+            "name": "Humber Summit",
+            "description": {
+              "#text": [
+                "
+  Address: 2990 Islington Ave., Toronto, ON, M9L 2K6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB053
+  "
+              ]
+            },
+            "address": "2990 Islington Ave., Toronto, ON, M9L 2K6",
+            "phoneNumber": "416-395-5840",
+            "Point": { "coordinates": "-79.57151851851851,43.75898148148147" }
+          },
+          {
+            "-id": "LIB054",
+            "name": "Humberwood",
+            "description": {
+              "#text": [
+                "
+  Address: 850 Humberwood Blvd., Toronto, ON, M9W 7A6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB054
+  "
+              ]
+            },
+            "address": "850 Humberwood Blvd., Toronto, ON, M9W 7A6",
+            "phoneNumber": "416-394-5210",
+            "Point": { "coordinates": "-79.61916296296296,43.72899629629626" }
+          },
+          {
+            "-id": "LIB055",
+            "name": "Jane/Dundas",
+            "description": {
+              "#text": [
+                "
+  Address: 620 Jane Street, Toronto, ON, M6S 4A6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB055
+  "
+              ]
+            },
+            "address": "620 Jane Street, Toronto, ON, M6S 4A6",
+            "phoneNumber": "416-394-1014",
+            "Point": { "coordinates": "-79.49141481481482,43.66547037037034" }
+          },
+          {
+            "-id": "LIB056",
+            "name": "Jane/Sheppard",
+            "description": {
+              "#text": [
+                "
+  Address: 1906 Sheppard Ave West, Toronto, ON, M3L 1Y7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB056
+  "
+              ]
+            },
+            "address": "1906 Sheppard Ave West, Toronto, ON, M3L 1Y7",
+            "phoneNumber": "416-395-5966",
+            "Point": { "coordinates": "-79.51005,43.73988" }
+          },
+          {
+            "-id": "LIB057",
+            "name": "Jones",
+            "description": {
+              "#text": [
+                "
+  Address: 118 Jones Ave., Toronto, ON, M4M 2Z9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB057
+  "
+              ]
+            },
+            "address": "118 Jones Ave., Toronto, ON, M4M 2Z9",
+            "phoneNumber": "416-393-7715",
+            "Point": { "coordinates": "-79.3344962962963,43.66595185185183" }
+          },
+          {
+            "-id": "LIB138",
+            "name": "Kennedy/Eglinton",
+            "description": {
+              "#text": [
+                "
+  Address: 2380 Eglinton Ave. East, Liberty Square Plaza, Toronto, ON, M1K 2P3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB138
+  "
+              ]
+            },
+            "address": "
+  2380 Eglinton Ave. East, Liberty Square Plaza, Toronto, ON, M1K 2P3
+  ",
+            "phoneNumber": "416-396-8924",
+            "Point": { "coordinates": "-79.27049629629628,43.73215925925921" }
+          },
+          {
+            "-id": "LIB059",
+            "name": "Leaside",
+            "description": {
+              "#text": [
+                "
+  Address: 165 McRae Dr., Toronto, ON, M4G 1S8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB059
+  "
+              ]
+            },
+            "address": "165 McRae Dr., Toronto, ON, M4G 1S8",
+            "phoneNumber": "416-396-3835",
+            "Point": { "coordinates": "-79.36756296296295,43.70649259259256" }
+          },
+          {
+            "-id": "LIB011",
+            "name": "Lillian H. Smith",
+            "description": {
+              "#text": [
+                "
+  Address: 239 College Street, Toronto, ON, M5T 1R5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB011
+  "
+              ]
+            },
+            "address": "239 College Street, Toronto, ON, M5T 1R5",
+            "phoneNumber": "416-393-7746",
+            "Point": { "coordinates": "-79.3984,43.6581" }
+          },
+          {
+            "-id": "LIB060",
+            "name": "Locke",
+            "description": {
+              "#text": [
+                "
+  Address: 3083 Yonge Street, Toronto, ON, M4N 2K7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB060
+  "
+              ]
+            },
+            "address": "3083 Yonge Street, Toronto, ON, M4N 2K7",
+            "phoneNumber": "416-393-7730",
+            "Point": { "coordinates": "-79.40181481481482,43.72487777777776" }
+          },
+          {
+            "-id": "LIB061",
+            "name": "Long Branch",
+            "description": {
+              "#text": [
+                "
+  Address: 3500 Lake Shore Blvd. West, Toronto, ON, M8W 1N6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB061
+  "
+              ]
+            },
+            "address": "3500 Lake Shore Blvd. West, Toronto, ON, M8W 1N6",
+            "phoneNumber": "416-394-5320",
+            "Point": { "coordinates": "-79.5315037037037,43.59526296296294" }
+          },
+          {
+            "-id": "LIB062",
+            "name": "Main Street",
+            "description": {
+              "#text": [
+                "
+  Address: 137 Main Street, Toronto, ON, M4E 2V9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB062
+  "
+              ]
+            },
+            "address": "137 Main Street, Toronto, ON, M4E 2V9",
+            "phoneNumber": "416-393-7700",
+            "Point": { "coordinates": "-79.29957777777775,43.68335925925925" }
+          },
+          {
+            "-id": "LIB012",
+            "name": "Malvern",
+            "description": {
+              "#text": [
+                "
+  Address: 30 Sewells Road, Toronto, ON, M1B 3G5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB012
+  "
+              ]
+            },
+            "address": "30 Sewells Road, Toronto, ON, M1B 3G5",
+            "phoneNumber": "416-396-8969",
+            "Point": { "coordinates": "-79.21606666666663,43.808314814814814" }
+          },
+          {
+            "-id": "LIB013",
+            "name": "Maria A. Shchuka",
+            "description": {
+              "#text": [
+                "
+  Address: 1745 Eglinton Avenue W, Toronto, ON, M6E 2H4",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB013
+  "
+              ]
+            },
+            "address": "1745 Eglinton Avenue W, Toronto, ON, M6E 2H4",
+            "phoneNumber": "416-394-1000",
+            "Point": { "coordinates": "-79.44719259259258,43.69612962962959" }
+          },
+          {
+            "-id": "LIB063",
+            "name": "Maryvale",
+            "description": {
+              "#text": [
+                "
+  Address: 85 Ellesmere Road, Unit 16, Parkway Mall, Toronto, ON, M1R 4B9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB063
+  "
+              ]
+            },
+            "address": "
+  85 Ellesmere Road, Unit 16, Parkway Mall, Toronto, ON, M1R 4B9
+  ",
+            "phoneNumber": "416-396-8931",
+            "Point": { "coordinates": "-79.3117111111111,43.757262962962955" }
+          },
+          {
+            "-id": "LIB064",
+            "name": "McGregor Park",
+            "description": {
+              "#text": [
+                "
+  Address: 2219 Lawrence Ave. East, Toronto, ON, M1P 2P5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB064
+  "
+              ]
+            },
+            "address": "2219 Lawrence Ave. East, Toronto, ON, M1P 2P5",
+            "phoneNumber": "416-396-8935",
+            "Point": { "coordinates": "-79.28071851851852,43.747707407407404" }
+          },
+          {
+            "-id": "LIB065",
+            "name": "Mimico Centennial",
+            "description": {
+              "#text": [
+                "
+  Address: 47 Station Road, Toronto, ON, M8V 2R1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB065
+  "
+              ]
+            },
+            "address": "47 Station Road, Toronto, ON, M8V 2R1",
+            "phoneNumber": "416-394-5330",
+            "Point": { "coordinates": "-79.49390370370371,43.61490740740739" }
+          },
+          {
+            "-id": "LIB066",
+            "name": "Morningside",
+            "description": {
+              "#text": [
+                "
+  Address: 4279 Lawrence Ave. East, Toronto, ON, M1E 2S8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB066
+  "
+              ]
+            },
+            "address": "4279 Lawrence Ave. East, Toronto, ON, M1E 2S8",
+            "phoneNumber": "416-396-8881",
+            "Point": { "coordinates": "-79.17854074074076,43.76988518518516" }
+          },
+          {
+            "-id": "LIB067",
+            "name": "Mount Dennis",
+            "description": {
+              "#text": [
+                "
+  Address: 1123 Weston Road, Toronto, ON, M6N 3S3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB067
+  "
+              ]
+            },
+            "address": "1123 Weston Road, Toronto, ON, M6N 3S3",
+            "phoneNumber": "416-394-1008",
+            "Point": { "coordinates": "-79.48825925925925,43.686581481481475" }
+          },
+          {
+            "-id": "LIB068",
+            "name": "Mount Pleasant",
+            "description": {
+              "#text": [
+                "
+  Address: 599 Mt. Pleasant Road, Toronto, ON, M4S 2M5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB068
+  "
+              ]
+            },
+            "address": "599 Mt. Pleasant Road, Toronto, ON, M4S 2M5",
+            "phoneNumber": "416-393-7737",
+            "Point": { "coordinates": "-79.38812592592595,43.703899999999976" }
+          },
+          {
+            "-id": "LIB069",
+            "name": "New Toronto",
+            "description": {
+              "#text": [
+                "
+  Address: 110 Eleventh Street, Toronto, ON, M8V 3G5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB069
+  "
+              ]
+            },
+            "address": "110 Eleventh Street, Toronto, ON, M8V 3G5",
+            "phoneNumber": "416-394-5350",
+            "Point": { "coordinates": "-79.50974074074074,43.599085185185174" }
+          },
+          {
+            "-id": "LIB01",
+            "name": "North York Central Library",
+            "description": {
+              "#text": [
+                "
+  Address: 5120 Yonge Street, Toronto, ON, M2N 5N9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB01
+  "
+              ]
+            },
+            "address": "5120 Yonge Street, Toronto, ON, M2N 5N9",
+            "phoneNumber": "416-395-5535",
+            "Point": { "coordinates": "-79.41424444,43.76807778" }
+          },
+          {
+            "-id": "LIB014",
+            "name": "Northern District",
+            "description": {
+              "#text": [
+                "
+  Address: 40 Orchard View Blvd., Toronto, ON, M4R 1B9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB014
+  "
+              ]
+            },
+            "address": "40 Orchard View Blvd., Toronto, ON, M4R 1B9",
+            "phoneNumber": "416-393-7610",
+            "Point": { "coordinates": "-79.39987407407408,43.708240740740706" }
+          },
+          {
+            "-id": "LIB070",
+            "name": "Northern Elms",
+            "description": {
+              "#text": [
+                "
+  Address: 123B Rexdale Blvd., Unit 5, Toronto, ON, M9W 1P1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB070
+  "
+              ]
+            },
+            "address": "123B Rexdale Blvd., Unit 5, Toronto, ON, M9W 1P1",
+            "phoneNumber": "416-394-5230",
+            "Point": { "coordinates": "-79.56554814814814,43.71132962962962" }
+          },
+          {
+            "-id": "LIB071",
+            "name": "Oakwood Village Library and Arts Centre",
+            "description": {
+              "#text": [
+                "
+  Address: 341 Oakwood Ave., Toronto, ON, M6E 2W1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB071
+  "
+              ]
+            },
+            "address": "341 Oakwood Ave., Toronto, ON, M6E 2W1",
+            "phoneNumber": "416-394-1040",
+            "Point": { "coordinates": "-79.4381111111111,43.68654444444444" }
+          },
+          {
+            "-id": "LIB072",
+            "name": "Palmerston",
+            "description": {
+              "#text": [
+                "
+  Address: 560 Palmerston Ave., Toronto, ON, M6G 2P7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB072
+  "
+              ]
+            },
+            "address": "560 Palmerston Ave., Toronto, ON, M6G 2P7",
+            "phoneNumber": "416-393-7680",
+            "Point": { "coordinates": "-79.41405185185185,43.66509259259255" }
+          },
+          {
+            "-id": "LIB015",
+            "name": "Pape/Danforth",
+            "description": {
+              "#text": [
+                "
+  Address: 701 Pape Ave., Toronto, ON, M4K 3S6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB015
+  "
+              ]
+            },
+            "address": "701 Pape Ave., Toronto, ON, M4K 3S6",
+            "phoneNumber": "416-393-7727",
+            "Point": { "coordinates": "-79.34457037037036,43.67855925925923" }
+          },
+          {
+            "-id": "LIB073",
+            "name": "Parkdale",
+            "description": {
+              "#text": [
+                "
+  Address: 1303 Queen Street West, Toronto, ON, M6K 1L6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB073
+  "
+              ]
+            },
+            "address": "1303 Queen Street West, Toronto, ON, M6K 1L6",
+            "phoneNumber": "416-393-7686",
+            "Point": { "coordinates": "-79.43265925925925,43.64117407407406" }
+          },
+          {
+            "-id": "LIB074",
+            "name": "Parliament Street",
+            "description": {
+              "#text": [
+                "
+  Address: 269 Gerrard Street East, Toronto, ON, M5A 2G3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB074
+  "
+              ]
+            },
+            "address": "269 Gerrard Street East, Toronto, ON, M5A 2G3",
+            "phoneNumber": "416-393-7663",
+            "Point": { "coordinates": "-79.36779999999999,43.66180370370367" }
+          },
+          {
+            "-id": "LIB075",
+            "name": "Perth/Dupont",
+            "description": {
+              "#text": [
+                "
+  Address: 1589 Dupont Street, Toronto, ON, M6P 3S5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB075
+  "
+              ]
+            },
+            "address": "1589 Dupont Street, Toronto, ON, M6P 3S5",
+            "phoneNumber": "416-393-7677",
+            "Point": { "coordinates": "-79.45382962962962,43.6650333333333" }
+          },
+          {
+            "-id": "LIB076",
+            "name": "Pleasant View",
+            "description": {
+              "#text": [
+                "
+  Address: 575 Van Horne Ave., Toronto, ON, M2J 4S8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB076
+  "
+              ]
+            },
+            "address": "575 Van Horne Ave., Toronto, ON, M2J 4S8",
+            "phoneNumber": "416-395-5940",
+            "Point": { "coordinates": "-79.33542962962961,43.787559259259254" }
+          },
+          {
+            "-id": "LIB077",
+            "name": "Port Union",
+            "description": {
+              "#text": [
+                "
+  Address: 5450 Lawrence Ave. East, Toronto, ON, M1C 3B2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB077
+  "
+              ]
+            },
+            "address": "5450 Lawrence Ave. East, Toronto, ON, M1C 3B2",
+            "phoneNumber": "416-396-8885",
+            "Point": { "coordinates": "-79.14028888888889,43.77947777777776" }
+          },
+          {
+            "-id": "LIB078",
+            "name": "Queen/Saulter",
+            "description": {
+              "#text": [
+                "
+  Address: 765 Queen Street East, Toronto, ON, M4M 1H3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB078
+  "
+              ]
+            },
+            "address": "765 Queen Street East, Toronto, ON, M4M 1H3",
+            "phoneNumber": "416-393-7723",
+            "Point": { "coordinates": "-79.34759259259259,43.65914444444443" }
+          },
+          {
+            "-id": "LIB079",
+            "name": "Rexdale",
+            "description": {
+              "#text": [
+                "
+  Address: 2243 Kipling Avenue, Toronto, ON, M9W 4L5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB079
+  "
+              ]
+            },
+            "address": "2243 Kipling Avenue, Toronto, ON, M9W 4L5",
+            "phoneNumber": "416-394-5200",
+            "Point": { "coordinates": "-79.57320740740741,43.72612962962962" }
+          },
+          {
+            "-id": "LIB016",
+            "name": "Richview",
+            "description": {
+              "#text": [
+                "
+  Address: 1806 Islington Ave., Toronto, ON, M9P 3N3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB016
+  "
+              ]
+            },
+            "address": "1806 Islington Ave., Toronto, ON, M9P 3N3",
+            "phoneNumber": "416-394-5120",
+            "Point": { "coordinates": "-79.5411185185185,43.68340370370369" }
+          },
+          {
+            "-id": "LIB080",
+            "name": "Riverdale",
+            "description": {
+              "#text": [
+                "
+  Address: 370 Broadview Ave., Toronto, ON, M4K 2M8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB080
+  "
+              ]
+            },
+            "address": "370 Broadview Ave., Toronto, ON, M4K 2M8",
+            "phoneNumber": "416-393-7720",
+            "Point": { "coordinates": "-79.35316296296295,43.66575925925923" }
+          },
+          {
+            "-id": "LIB081",
+            "name": "Runnymede",
+            "description": {
+              "#text": [
+                "
+  Address: 2178 Bloor Street West, Toronto, ON, M6S 1M8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB081
+  "
+              ]
+            },
+            "address": "2178 Bloor Street West, Toronto, ON, M6S 1M8",
+            "phoneNumber": "416-393-7697",
+            "Point": { "coordinates": "-79.47384444444442,43.65185555555554" }
+          },
+          {
+            "-id": "LIB144",
+            "name": "Scarborough Civic Centre",
+            "description": {
+              "#text": [
+                "
+  Address: 156 Borough Dr., Toronto, ON, M1P 4N7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB144
+  "
+              ]
+            },
+            "address": "156 Borough Dr., Toronto, ON, M1P 4N7",
+            "phoneNumber": "416-396-3599",
+            "Point": { "coordinates": "-79.2567640,43.7720960" }
+          },
+          {
+            "-id": "LIB017",
+            "name": "S. Walter Stewart",
+            "description": {
+              "#text": [
+                "
+  Address: 170 Memorial Park Ave., Toronto, ON, M4J 2K5",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB017
+  "
+              ]
+            },
+            "address": "170 Memorial Park Ave., Toronto, ON, M4J 2K5",
+            "phoneNumber": "416-396-3975",
+            "Point": { "coordinates": "-79.32969629629627,43.6921148148148" }
+          },
+          {
+            "-id": "LIB085",
+            "name": "Sanderson",
+            "description": {
+              "#text": [
+                "
+  Address: 327 Bathurst Street, Toronto, ON, M5T 1J1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB085
+  "
+              ]
+            },
+            "address": "327 Bathurst Street, Toronto, ON, M5T 1J1",
+            "phoneNumber": "416-393-7653",
+            "Point": { "coordinates": "-79.40551851851849,43.65208518518517" }
+          },
+          {
+            "-id": "LIB086",
+            "name": "Spadina Road",
+            "description": {
+              "#text": [
+                "
+  Address: 10 Spadina Road, Toronto, ON, M5R 2S7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB086
+  "
+              ]
+            },
+            "address": "10 Spadina Road, Toronto, ON, M5R 2S7",
+            "phoneNumber": "416-393-7666",
+            "Point": { "coordinates": "-79.40437777777778,43.66715925925923" }
+          },
+          {
+            "-id": "LIB082",
+            "name": "St. Clair/Silverthorn",
+            "description": {
+              "#text": [
+                "
+  Address: 1748 St. Clair Ave. West, Toronto, ON, M6N 1J3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB082
+  "
+              ]
+            },
+            "address": "1748 St. Clair Ave. West, Toronto, ON, M6N 1J3",
+            "phoneNumber": "416-393-7709",
+            "Point": { "coordinates": "-79.4605851851852,43.674262962962956" }
+          },
+          {
+            "-id": "LIB083",
+            "name": "St. James Town",
+            "description": {
+              "#text": [
+                "
+  Address: 495 Sherbourne Street, Toronto, ON, M4X 1K7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB083
+  "
+              ]
+            },
+            "address": "495 Sherbourne Street, Toronto, ON, M4X 1K7",
+            "phoneNumber": "416-393-7744",
+            "Point": { "coordinates": "-79.37446666666666,43.667262962962944" }
+          },
+          {
+            "-id": "LIB084",
+            "name": "St. Lawrence",
+            "description": {
+              "#text": [
+                "
+  Address: 171 Front Street East, Toronto, ON, M5A 4H3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB084
+  "
+              ]
+            },
+            "address": "171 Front Street East, Toronto, ON, M5A 4H3",
+            "phoneNumber": "416-393-7655",
+            "Point": { "coordinates": "-79.36849629629628,43.64998148148147" }
+          },
+          {
+            "-id": "LIB087",
+            "name": "Steeles",
+            "description": {
+              "#text": [
+                "
+  Address: Bamburgh Gardens Shopping Plaza, C107-375 Bamburgh Circle, Toronto, ON, M1W 3Y1",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB087
+  "
+              ]
+            },
+            "address": "
+  Bamburgh Gardens Shopping Plaza, C107-375 Bamburgh Circle, Toronto, ON, M1W 3Y1
+  ",
+            "phoneNumber": "416-396-8975",
+            "Point": { "coordinates": "-79.32230370370368,43.81538148148147" }
+          },
+          {
+            "-id": "LIB088",
+            "name": "Swansea Memorial",
+            "description": {
+              "#text": [
+                "
+  Address: 95 Lavinia Ave., Toronto, ON, M6S 3H9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB088
+  "
+              ]
+            },
+            "address": "95 Lavinia Ave., Toronto, ON, M6S 3H9",
+            "phoneNumber": "416-393-7695",
+            "Point": { "coordinates": "-79.47802222222221,43.64792962962962" }
+          },
+          {
+            "-id": "LIB089",
+            "name": "Taylor Memorial",
+            "description": {
+              "#text": [
+                "
+  Address: 1440 Kingston Road, Toronto, ON, M1N 1R3",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB089
+  "
+              ]
+            },
+            "address": "1440 Kingston Road, Toronto, ON, M1N 1R3",
+            "phoneNumber": "416-396-8939",
+            "Point": { "coordinates": "-79.27125185185186,43.68778148148149" }
+          },
+          {
+            "-id": "LIB090",
+            "name": "Thorncliffe",
+            "description": {
+              "#text": [
+                "
+  Address: 48 Thorncliffe Park Dr., Toronto, ON, M4H 1J7",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB090
+  "
+              ]
+            },
+            "address": "48 Thorncliffe Park Dr., Toronto, ON, M4H 1J7",
+            "phoneNumber": "416-396-3865",
+            "Point": { "coordinates": "-79.34264444444442,43.70290740740739" }
+          },
+          {
+            "-id": "LIB091",
+            "name": "Todmorden Room",
+            "description": {
+              "#text": [
+                "
+  Address: 1081 1/2 Pape Ave (at Torrens), Toronto, ON, M4K 3W6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB091
+  "
+              ]
+            },
+            "address": "
+  1081 1/2 Pape Ave (at Torrens), Toronto, ON, M4K 3W6
+  ",
+            "phoneNumber": "416-396-3875",
+            "Point": { "coordinates": "-79.34932592592591,43.691625925925905" }
+          },
+          {
+            "-id": "LIB018",
+            "name": "Toronto Reference Library",
+            "description": {
+              "#text": [
+                "
+  Address: 789 Yonge Street, Toronto, ON, M4W 2G8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB018
+  "
+              ]
+            },
+            "address": "789 Yonge Street, Toronto, ON, M4W 2G8",
+            "phoneNumber": "416-395-5577",
+            "Point": { "coordinates": "-79.38676296296297,43.671737037037005" }
+          },
+          {
+            "-id": "LIB092",
+            "name": "Victoria Village",
+            "description": {
+              "#text": [
+                "
+  Address: 184 Sloane Ave., Toronto, ON, M4A 2C4",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB092
+  "
+              ]
+            },
+            "address": "184 Sloane Ave., Toronto, ON, M4A 2C4",
+            "phoneNumber": "416-395-5950",
+            "Point": { "coordinates": "-79.3129111111111,43.736011111111075" }
+          },
+          {
+            "-id": "LIB093",
+            "name": "Weston",
+            "description": {
+              "#text": [
+                "
+  Address: 2 King Street, Toronto, ON, M9N 1K9",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB093
+  "
+              ]
+            },
+            "address": "2 King Street, Toronto, ON, M9N 1K9",
+            "phoneNumber": "416-394-1016",
+            "Point": { "coordinates": "-79.52058518518517,43.701796296296266" }
+          },
+          {
+            "-id": "LIB094",
+            "name": "Woodside Square",
+            "description": {
+              "#text": [
+                "
+  Address: Woodside Square Mall, 1571 Sandhurst Circle, Toronto, ON, M1V 1V2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB094
+  "
+              ]
+            },
+            "address": "
+  Woodside Square Mall, 1571 Sandhurst Circle, Toronto, ON, M1V 1V2
+  ",
+            "phoneNumber": "416-396-8979",
+            "Point": { "coordinates": "-79.26954814814812,43.809462962962954" }
+          },
+          {
+            "-id": "LIB095",
+            "name": "Woodview Park",
+            "description": {
+              "#text": [
+                "
+  Address: 16 Bradstock Road, Toronto, ON, M9M 1M8",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB095
+  "
+              ]
+            },
+            "address": "16 Bradstock Road, Toronto, ON, M9M 1M8",
+            "phoneNumber": "416-395-5960",
+            "Point": { "coordinates": "-79.53894074074073,43.7397222222222" }
+          },
+          {
+            "-id": "LIB096",
+            "name": "Wychwood",
+            "description": {
+              "#text": [
+                "
+  Address: 1431 Bathurst Street, Toronto, ON, M5R 3J2",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB096
+  "
+              ]
+            },
+            "address": "1431 Bathurst Street, Toronto, ON, M5R 3J2",
+            "phoneNumber": "416-393-7683",
+            "Point": { "coordinates": "-79.41754814814814,43.682181481481464" }
+          },
+          {
+            "-id": "LIB019",
+            "name": "York Woods",
+            "description": {
+              "#text": [
+                "
+  Address: 1785 Finch Ave. West, Toronto, ON, M3N 1M6",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB019
+  "
+              ]
+            },
+            "address": "1785 Finch Ave. West, Toronto, ON, M3N 1M6",
+            "phoneNumber": "416-395-5980",
+            "Point": { "coordinates": "-79.50726666666665,43.758892592592574" }
+          },
+          {
+            "-id": "LIB097",
+            "name": "Yorkville",
+            "description": {
+              "#text": [
+                "
+  Address: 22 Yorkville Ave., Toronto, ON, M4W 1L4",
+                "Link: https://www.torontopubliclibrary.ca/detail.jsp?R=LIB097
+  "
+              ]
+            },
+            "address": "22 Yorkville Ave., Toronto, ON, M4W 1L4",
+            "phoneNumber": "416-393-7660",
+            "Point": { "coordinates": "-79.38864444444445,43.6718259259259" }
+          }
+        ]
+      }
+    }
+  }
