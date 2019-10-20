@@ -21,21 +21,24 @@ function manageBookShelf()
     localStorage.setItem("myBookShelf", JSON.stringify(bookshelf));
     for (i=0; i < bookshelf.length; i++)
     {
-        $("#bookshelf").append(`<div class="col-4" id="shelf" style="padding:1vw; border:solid"><span><a href="#" class="app_icon" target="#"><img src="KevinDavis.jpg" width="100vw"></a><div id="btn_column" style="display:flex; flex-direction:column; width:8vw"><button class="option" id="buyBook">Buy Book</button> <button class="option" id="borrowBook">Borrow Book</button> <button class="option" id="deleteBook">X</button></div></span><br/><span>${bookshelf[i].title} ${bookshelf[i].author}</span></div>`);
+        $("#bookshelf").append(`<div class="col-4" id="shelf" style="padding:1vw; border:solid"><span><a href="#" class="app_icon" target="#"><img src="KevinDavis.jpg" width="100vw"></a><div id="btn_column" style="display:flex; flex-direction:column; width:8vw"><button class="option" id="buyBook">Buy Book</button> <button class="option" id="borrowBook" value="${bookshelf[i].title}+${bookshelf[i].author}">Borrow Book</button> <button class="option" id="deleteBook">X</button></div></span><br/><span>${bookshelf[i].title} ${bookshelf[i].author}</span></div>`);
     }
 };
 
-function buildBookshelf()
+// function buildBookshelf()
+// {
+//     $("body").append(`<div class="row col-4" id="bookshelf"></div>`);
+//     manageBookShelf();
+// };
+
+var btn_buybook = $("#buyBook");
+var btn_brwbook = $("#bookshelf");
+var btn_delbook = $("#deleteBook");
+
+btn_brwbook.on("click",  ".option", function()
 {
-    $("body").append(`<div class="row col-4" id="bookshelf"></div>`);
-    manageBookShelf();
-};
-
-btn_buybook = $("#buyBook");
-btn_brwbook = $("#borrowBook");
-btn_delbook = $("#deleteBook");
-
-btn_brwbook.on("click",  "option", this.getMyLocationURL);
+    window.open(`https://www.torontopubliclibrary.ca/search.jsp?Ntt=${this.value}`, " ", "top=500,left=500,width=400,height=400");
+});
 
 btn_delbook.on("click", function()
 {
@@ -85,4 +88,4 @@ function getMyLocationURL()
     };
 };
 
-$(document).ready(buildBookshelf());
+$(document).ready(manageBookShelf());
