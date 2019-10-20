@@ -21,7 +21,23 @@ function manageBookShelf()
     localStorage.setItem("myBookShelf", JSON.stringify(bookshelf));
     for (i=0; i < bookshelf.length; i++)
     {
-        $("#bookshelf").append(`<div class="col-4" id="shelf" style="padding:1vw; border:solid"><span><a href="#" class="app_icon" target="#"><img src="KevinDavis.jpg" width="100vw"></a><div id="btn_column" style="display:flex; flex-direction:column; width:8vw"><button class="option" id="buyBook">Buy Book</button> <button class="option" id="borrowBook" value="${bookshelf[i].title}+${bookshelf[i].author}">Borrow Book</button> <button class="option" id="deleteBook">X</button></div></span><br/><span>${bookshelf[i].title} ${bookshelf[i].author}</span></div>`);
+        $("#bookshelf").append(`<div class="col-4" id="shelf" style="padding:1vw; border:solid">
+        <span><a href="#" class="app_icon" target="#"><img src="KevinDavis.jpg" width="100vw">
+        </a><div id="btn_column" style="display:flex; flex-direction:column; width:8vw">
+        <button class="option" id="buyBook">Buy Book</button>
+        <select id="booksellers" style="display:none">
+        <option class="bookstore">Indigo</option>
+        <option class="bookstore">Amazon</option>
+        <option class="bookstore">Ebay</option>
+        <option class="bookstore">Book Outlet</option>
+        <option class="bookstore">Books-a-Million (BAM)</option>
+        <option class="bookstore">Better World Books</option>
+        <option class="bookstore">Kobo</option>
+        </select>
+        <button class="option" id="borrowBook" value="${bookshelf[i].title}+${bookshelf[i].author}">Borrow Book</button>
+        <button class="option" id="showMap value="${bookshelf[i].title}+${bookshelf[i].author}">Show Branches</button>
+        <button class="option" id="deleteBook">X</button></div></span>
+        <span>${bookshelf[i].title} ${bookshelf[i].author}</span></div>`);
     }
 };
 
@@ -32,12 +48,40 @@ function manageBookShelf()
 // };
 
 var btn_buybook = $("#buyBook");
-var btn_brwbook = $("#bookshelf");
+var btn_options = $("#bookshelf");
 var btn_delbook = $("#deleteBook");
 
-btn_brwbook.on("click",  ".option", function()
+// btn_buybook.on("click", ".option", function()
+// {
+//     event.preventDefault();
+//     console.log(this);
+//     // $(this.id).attr("display", "block");
+//     // window.open(`https://www.torontopubliclibrary.ca/search.jsp?Ntt=${this.value}`, " ", "top=500,left=500,width=400,height=400");
+// });
+
+btn_options.on("click", ".option", function()
 {
-    window.open(`https://www.torontopubliclibrary.ca/search.jsp?Ntt=${this.value}`, " ", "top=500,left=500,width=400,height=400");
+    event.preventDefault();
+    alert(this.id.toLowerCase());
+    if (this.id.toLowerCase() == "buybook")
+    {
+        if ($("#booksellers").css("display") == "none")
+        {
+            $("#booksellers").css("display", "block");
+        }
+        else
+        {
+            $("#booksellers").css("display", "none");
+        };
+    }
+    else if (this.id.toLowerCase() == "borrowbook")
+    {
+        window.open(`https://www.torontopubliclibrary.ca/search.jsp?Ntt=${this.value}`, " ", "top=500,left=500,width=400,height=400");
+    }
+    else if (this.id.toLowerCase() == "showmap")
+    {
+        getMyLocationURL();
+    }
 });
 
 btn_delbook.on("click", function()
