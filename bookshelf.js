@@ -19,12 +19,9 @@ function manageBookShelf()
         };
     }
     localStorage.setItem("myBookShelf", JSON.stringify(bookshelf));
-    $("#bookshelf").attr("size", Math.min(bookshelf.length, 20));
     for (i=0; i < bookshelf.length; i++)
     {
-        console.log(bookshelf);
-        // $("#bookshelf").append(`<option><div><span>${bookshelf[i].title} ${bookshelf[i].author}</span><button id="buyBook"></button><button id="borrowBook"></button></div></option>`);
-        $("#bookshelf").append(`<div class="col-4" id="shelf" style="padding:1vw; border:solid"><span>${bookshelf[i].title} ${bookshelf[i].author} <button id="buyBook">Buy Book</button> <button id="borrowBook">Borrow Book</button> <button id="deleteBook">X</button></span></div>`);
+        $("#bookshelf").append(`<div class="col-4" id="shelf" style="padding:1vw; border:solid"><span><a href="#" class="app_icon" target="#"><img src="KevinDavis.jpg" width="100vw"></a><div id="btn_column" style="display:flex; flex-direction:column; width:8vw"><button class="option" id="buyBook">Buy Book</button> <button class="option" id="borrowBook">Borrow Book</button> <button class="option" id="deleteBook">X</button></div></span><br/><span>${bookshelf[i].title} ${bookshelf[i].author}</span></div>`);
     }
 };
 
@@ -38,7 +35,7 @@ btn_buybook = $("#buyBook");
 btn_brwbook = $("#borrowBook");
 btn_delbook = $("#deleteBook");
 
-btn_brwbook.on("click", "option", getMyLocationURL);
+btn_brwbook.on("click",  "option", this.getMyLocationURL);
 
 btn_delbook.on("click", function()
 {
@@ -54,6 +51,8 @@ function getMyLocationURL()
     var latitude;
     var api_key = "pk.eyJ1IjoicmV2ZXJiMTk3MSIsImEiOiJjazF3Zmk4bm0wMDRsM2tvN3k3dHQycXZqIn0.0lNTs0Y0eLfFZDfO_GcT8g";
 
+    alert("Showing map");
+    $("#map").attr("display", "block");
     if (navigator.geolocation) 
     {
         navigator.geolocation.getCurrentPosition(success, error);
