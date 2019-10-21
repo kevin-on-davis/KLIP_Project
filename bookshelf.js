@@ -3,19 +3,19 @@ var bookshelf = [];
 function manageBookShelf()
 {
     debugger;
+    bookshelf = [];
     if (!localStorage.myBookShelf)
     {
-        var shelfItem = {"frontCover":"KevinDavis.jpg", "title":"The Killing Dance", "author":"Laurell K. Hamilton","ISBN":"ISBN Number"};
-        // console.log(shelfItem);
+        var shelfItem = {"frontCover":"KevinDavis.jpg", "title":"A Lick of Frost", "author":"Laurell K. Hamilton","ISBN":"ISBN Number"};
+
         bookshelf.push(shelfItem);
-        console.log(bookshelf);
     }
     else
     {
         bookshelf = JSON.parse(localStorage.getItem("myBookShelf"));
-        var shelfItem = {"frontCover":"KevinDavis.jpg", "title":"The Killing Dance", "author":"Laurell K. Hamilton","ISBN":"ISBN Number"};
+        var shelfItem = {"frontCover":"KevinDavis.jpg", "title":"A Lick of Frost", "author":"Laurell K. Hamilton","ISBN":"ISBN Number"};
 
-        if (!bookshelf.some(e => e.ISBN === shelfItem.ISBN))
+        if (!bookshelf.some(e => e.title === shelfItem.title))
         {
             bookshelf.push(shelfItem);
         };
@@ -26,7 +26,7 @@ function manageBookShelf()
     {
         $("#savedBook").append(`<div class="col-6"><img src="${bookshelf[i].frontCover}" width="150px"><br/><span style="display:flex">${bookshelf[i].title}<br/>${bookshelf[i].author}</span> </div>
         <div class="col-6" id="btn_column" style="display:flex; flex-direction:column">
-                <button class="option" style="width:50%" id="buyBook">Buy</button>
+                <button class="option" style="width:50%" id="buyBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Buy</button>
                 <button class="option" style="width:50%" id="borrowBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Borrow</button>
                 <button class="option" style="width:50%" id="showMap" value="${bookshelf[i].title}+${bookshelf[i].author}">Map</button>
                 <button class="option" style="width:50%" id="deleteBook" value="${i}">X</button><br/>
@@ -39,6 +39,12 @@ function manageBookShelf()
 };
 
 var btn_options = $("#savedBook");
+var lst_bookseller = $("#booksellers");
+
+lst_bookseller.on("click", "option", function(event)
+{
+    alert(this);
+});
 
 btn_options.on("click", ".option", function()
 {
@@ -49,12 +55,10 @@ btn_options.on("click", ".option", function()
         if ($("#booksellers").css("display") == "none")
         {
             $("#booksellers").css("display", "block");
-            this.text("Hide Online Sellers");
         }
         else
         {
             $("#booksellers").css("display", "none");
-            this.text("Buy");
         };
     }
     else if (this.id.toLowerCase() == "borrowbook")
@@ -68,9 +72,20 @@ btn_options.on("click", ".option", function()
     }
     else if (this.id.toLowerCase() == "deletebook")
     {
-        var modArr = bookshelf.filter(book => bookshelf.indexOf(book) != this.value);
-        localStorage.setItem("myBookShelf", JSON.stringify(modArr));
-        manageBookShelf()
+        if (this.value == 0)
+        {
+            var elmnt_hldr = bookshelf.shift();
+            console.log("There "+this.value );
+            localStorage.setItem("myBookShelf", JSON.stringify(bookshelf));
+            manageBookShelf();
+        }
+        else
+        {
+            var modArr = bookshelf.filter(book => bookshelf.indexOf(book) != this.value);
+            alert(this.value);
+            localStorage.setItem("myBookShelf", JSON.stringify(modArr));
+            manageBookShelf();
+        }
     }
 });
 
