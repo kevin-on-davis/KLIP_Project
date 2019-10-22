@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bookshelf.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto|Tajawal&display=swap" rel="stylesheet">
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
     <title>Bookshelf</title>
 </head>
 <body>
@@ -21,10 +19,8 @@
                 <div class="flexible-article-content">
                     <div class="flexible-article-image-left">
                         <h3 id="title"></h3>
+                        <div class="thumbnail" id = "picture"></div>
                         <h4 id="author"></h4>
-                        <div class="thumbnail">
-                            <img src="" alt="">
-                        </div>
                         <div id="bookDetails">
                             <p id="publicationYear"></p>
                             <p id="publishers"></p>
@@ -33,20 +29,25 @@
                         </div>
                     </div>
                     <p id="synopsis"></p>
-                    <h4>Reviews</h4>
                     <p id="reviews"></p>
-                    <h4>Suggestions</h4>
-                    <p id="suggestions"></p>
+                    <div>
+                        <input type="button" value="Add to Bookshelf" id="addToShelf" />
+                    </div>
                 </div>
             </div>                 
         </div>
                   
         <div class="holy-grail-right">
-            <h3>My Bookshelf
-            </h3>
-        <div id="savedBook"></div>  
+            <h3>My Bookshelf</h3>
+            <div id="savedBook">
+                <p id="savedTitle"></p>
+                <p id="savedAuthor"></p>
+                <button id="purchase">Purchase</button>
+                <button id="borrow">Borrow</button>
+                <button id="delete">Delete</button>
+            </div>  
             <br>          
-           <div id='map' style="display : none"></div>
+            <div id='map' style="display : none"></div>
         </div>
                   
         <div class="holy-grail-footer">
@@ -57,8 +58,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="bookshelf.js"></script> 
-    <!-- <script src="script.js"></script>  -->
+    <script src="bookshelfScript.js"></script> 
 
 </body>
 </html>
