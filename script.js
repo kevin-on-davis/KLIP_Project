@@ -21,39 +21,44 @@ function test(){
     } else {
         event.preventDefault();
     }
-    
 }
 
 function outputResults() {
     $("#bookInfo").empty();
     var iterations = 10;
-    console.log(results)
-    // var title = results.items[0].volumeInfo.title;
-    // var author = results.items[0].volumeInfo.authors;
-    // var frontCover = results.items[0].volumeInfo.imageLinks.smallThumbnail;
 
-
-    for( i = 0; i < iterations; i++) {   
+    for(i = 0; i < iterations; i++) {   
         $("<div>").attr({
-            class: "row",
-            id: "row" + i
+            class: "row add-people-section",
+            id: "book" + i
         }).appendTo("#bookInfo")
-        $("<div>").addClass("author-image").appendTo("#row"+i)
-        $("<div>").addClass("small-12 medium-4 columns").appendTo("#row"+i)
-        $("<img>").attr("src",results.items[i].volumeInfo.imageLinks.smallThumbnail).appendTo("#bookInfo")
-        $("<div>").addClass("small-12 medium-4 columns").appendTo("#row"+i)
-        $("<h5>").attr({
-            isbn: results.items[i].volumeInfo.industryIdentifiers[0].identifier,
-        }).text(results.items[i].volumeInfo.title).appendTo("#row"+i)
-        $("<h7>").text('By: ' + results.items[i].volumeInfo.authors).appendTo("#row"+i)
+        $("<div>").attr({
+            class: "small-12 medium-6 columns about-people",
+            id: "peopleCol" + i
+        }).appendTo("#book"+i)
+        $("<div>").attr({
+            class: "about-people-avatar",
+            id: "avatar" + i
+        }).appendTo("#peopleCol"+i)
+        $("<img>").attr({
+            style: "width: 100px; height:150px; padding:0px 0px 0px 20px;",
+            src: results.items[i].volumeInfo.imageLinks.smallThumbnail,
+        }).appendTo("#avatar"+i)
+        $("<div>").attr({
+            class:"about-people-author",
+            id: "author" + i
+        }).appendTo("#peopleCol"+i)
+        $("<p> "+results.items[i].volumeInfo.title+" </p>").attr({
+            class: "author-name hyperLink",
+            isbn: results.items[i].volumeInfo.industryIdentifiers[0].identifier
+        }).appendTo("#author"+i)
+        $("<p> "+results.items[i].volumeInfo.authors+" </p>").attr({
+            class: "author-mutual",
+        }).appendTo("#author"+i)
     }
 
-    $("h5").click(function(){
+    $(".author-name").click(function(){
         localStorage.setItem("isbn",$(this).attr("isbn"))
         window.open("./bookshelf.html")
     })
-
-    
 }
-
-
