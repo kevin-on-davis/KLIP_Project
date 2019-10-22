@@ -108,10 +108,10 @@ function loadBookShelf()
     {
         $("#savedBook").append(`<div class="col-6"><img src="${bookshelf[i].frontCover}" width="150px"><br/><span style="display:flex">${bookshelf[i].title}<br/>${bookshelf[i].author}</span> </div>
         <div class="col-6" id="btn_column">
-                <button class="option" style="width:20%" id="buyBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Buy</button>
-                <button class="option" style="width:20%" id="borrowBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Borrow</button>
-                <button class="option" style="width:20%" id="showMap" value="${bookshelf[i].title}+${bookshelf[i].author}">Map</button>
-                <button class="option" style="width:20%" id="deleteBook" value="${i}">Delete</button><br/>
+                <button class="option" style="width:50%" id="buyBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Buy</button>
+                <button class="option" style="width:50%" id="borrowBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Borrow</button>
+                <button class="option" style="width:50%" id="showMap" value="${bookshelf[i].title}+${bookshelf[i].author}">Map</button>
+                <button class="option" style="width:50%" id="deleteBook" value="${i}">Delete</button><br/>
         </div>`);
     }
 };
