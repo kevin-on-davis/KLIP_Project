@@ -100,10 +100,7 @@ button {
 }
 
 .col-6 {
-    float: left;
     font-family: 'Open Sans', sans-serif;
 }
 
-#btn_column {
-    float: right;
-}
+
