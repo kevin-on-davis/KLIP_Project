@@ -88,6 +88,22 @@ hr {
 }
 
 button {
-    color: rgba(151, 151, 151, 0.986);
+    color: rgba(126, 125, 125, 0.986);
     align-content: center;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#picture {
+    float: right;
+}
+
+.col-6 {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#btn_column {
+    float: right;
 }
