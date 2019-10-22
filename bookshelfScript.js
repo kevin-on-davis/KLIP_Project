@@ -145,7 +145,7 @@ btn_options.on("click", ".option", function()
         <li><a target="_blank" rel="nofollow" href="https://www.kobo.com/ca/en/search?query=${this.value}">Kobo</a></li>
         <li><a target="_blank" rel="nofollow" href="https://www.bookdepository.com/search?searchTerm=${this.value}&search=Find+book">Book Depository</a></li>
         </ul></div></div></div>`);
-        alert($(`[rel="nofollow"`).href);
+
         if ($("#booksellers").css("display") == "none")
         {
             $("#booksellers").css("display", "block");
