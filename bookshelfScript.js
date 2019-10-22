@@ -211,8 +211,9 @@ function getMyLocationURL()
                 id: "mapid"
             }).appendTo("#mapBox")
         
-            var longitude
-            var latitude
+            var longitude = pos.coords.longitude;
+            var latitude = pos.coords.latitude;
+
             var mymap = L.map('mapid').setView([43.65,  -79.39], 11);
             
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicGFicm9tZSIsImEiOiJjazF1N3M0aTQwYWYxM21vamhwenRrZ3FwIn0.U1Kj3RdOyh3OX2JIuKBvAw', {
@@ -223,13 +224,22 @@ function getMyLocationURL()
                 id: 'mapbox.streets'
             }).addTo(mymap);
 
-            longitude = pos.coords.longitude;
-            latitude = pos.coords.latitude;
-
             searchBorder = (longitude-0.025).toFixed(6) + "," + (latitude-0.025).toFixed(6) + "," + (longitude+0.025).toFixed(6) + "," + (latitude+0.025).toFixed(6)
             searchTerm = "library"
             // toronto = "-79.347015,43.651070" 
             
+            var redIcon = new L.Icon({
+                iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+              });
+
+            var marker = L.marker([latitude,longitude],{icon:redIcon}).addTo(mymap);
+            marker.bindPopup("<b>You are here<br>");
+
             url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${searchTerm}.json?bbox=${searchBorder}&limit=10&access_token=pk.eyJ1IjoicGFicm9tZSIsImEiOiJjazF1N3M0aTQwYWYxM21vamhwenRrZ3FwIn0.U1Kj3RdOyh3OX2JIuKBvAw`
 
             console.log(url)
