@@ -129,40 +129,22 @@ btn_options.on("click", ".option", function()
 {
     event.preventDefault();
 
-    
+    console.log(this.id);
     if (this.id.toLowerCase() == "buybook")
     {
-        if (!$("#booksellers"))
-        {
-            $("#savedBook").prepend(`<div class="luna-card luna-card--alt calloutBox" id="booksellers" style="display:none"><div class="luna-card__block">
-            <div class="u-grid"><div class="u-grid__col u-1/2@s">
-            <ul class="list-7">
-            <li><a target="_blank" rel="nofollow" href="https://www.chapters.indigo.ca/en-ca/home/search/?keywords=${this.value}#internal=1">Indigo</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.amazon.ca/s?k=${this.value}&ref=nb_sb_noss">Amazon</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.ebay.ca/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=${this.value}&_sacat=267">eBay</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://bookoutlet.ca/Store/Search?qf=All&q=${this.value}">Book Outlet</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.booksamillion.com/search?id=7715935122566&query=${this.value}&filter=">BAM</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.betterworldbooks.com/search/results?q=${this.value}">Better World Books</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.kobo.com/ca/en/search?query=${this.value}">Kobo</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.bookdepository.com/search?searchTerm=${this.value}&search=Find+book">Book Depository</a></li>
-            </ul></div></div></div></div>`);
-        }
-        else
-        {
-            $("#booksellers").empty();
-            $("#booksellers").append(`<div class="luna-card__block">
-            <div class="u-grid"><div class="u-grid__col u-1/2@s">
-            <ul class="list-7">
-            <li><a target="_blank" rel="nofollow" href="https://www.chapters.indigo.ca/en-ca/home/search/?keywords=${this.value}#internal=1">Indigo</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.amazon.ca/s?k=${this.value}&ref=nb_sb_noss">Amazon</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.ebay.ca/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=${this.value}&_sacat=267">eBay</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://bookoutlet.ca/Store/Search?qf=All&q=${this.value}">Book Outlet</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.booksamillion.com/search?id=7715935122566&query=${this.value}&filter=">BAM</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.betterworldbooks.com/search/results?q=${this.value}">Better World Books</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.kobo.com/ca/en/search?query=${this.value}">Kobo</a></li>
-            <li><a target="_blank" rel="nofollow" href="https://www.bookdepository.com/search?searchTerm=${this.value}&search=Find+book">Book Depository</a></li>
-            </ul></div></div></div>`);            
-        }
+        $("#booksellers").empty();
+        $("#booksellers").append(`<div class="luna-card__block">
+        <div class="u-grid"><div class="u-grid__col u-1/2@s">
+        <ul class="list-7">
+        <li><a target="_blank" rel="nofollow" href="https://www.chapters.indigo.ca/en-ca/home/search/?keywords=${this.value}#internal=1">Indigo</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://www.amazon.ca/s?k=${this.value}&ref=nb_sb_noss">Amazon</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://www.ebay.ca/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=${this.value}&_sacat=267">eBay</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://bookoutlet.ca/Store/Search?qf=All&q=${this.value}">Book Outlet</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://www.booksamillion.com/search?id=7715935122566&query=${this.value}&filter=">BAM</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://www.betterworldbooks.com/search/results?q=${this.value}">Better World Books</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://www.kobo.com/ca/en/search?query=${this.value}">Kobo</a></li>
+        <li><a target="_blank" rel="nofollow" href="https://www.bookdepository.com/search?searchTerm=${this.value}&search=Find+book">Book Depository</a></li>
+        </ul></div></div></div>`);
 
         if ($("#booksellers").css("display") == "none")
         {
@@ -175,7 +157,7 @@ btn_options.on("click", ".option", function()
     }
     else if (this.id.toLowerCase() == "borrowbook")
     {
-        window.open(`https://www.torontopubliclibrary.ca/search.jsp?Ntt=${this.value}`, " ", "top=500,left=500,width=400,height=400");
+        window.open(`https://www.torontopubliclibrary.ca/search.jsp?Ntt=${this.value}`, "_self", "top=500,left=500,width=400,height=400");
     }
     else if (this.id.toLowerCase() == "showmap")
     {
