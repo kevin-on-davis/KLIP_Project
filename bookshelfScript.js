@@ -46,7 +46,13 @@ $("#picture").empty();
     $("#isbn").append("ISBN: " + response.items[0].volumeInfo.industryIdentifiers[1].identifier);
 
     $("#reviews").empty();
+    var rated = response.items[0].volumeInfo.averageRating;
+    if (rated>0){
     $("#reviews").append("Avg. Rating: " + response.items[0].volumeInfo.averageRating + "/5");
+    }
+    else{
+        $("#reviews").append("Avg. Rating: Not Rated");
+    }
 
     //var isbn = response.items[0].volumeInfo.industryIdentifiers[1];
 }
@@ -100,7 +106,7 @@ function loadBookShelf()
     $("#savedBook").empty();
     for (i=0; i < bookshelf.length; i++)
     {
-        $("#savedBook").append(`<div class="col-6"><img src="${bookshelf[i].frontCover}" width="75px"><br/><span style="display:flex">${bookshelf[i].title}<br/>${bookshelf[i].author}</span> </div>
+        $("#savedBook").append(`<div class="col-6"><img src="${bookshelf[i].frontCover}" width="150px"><br/><span style="display:flex">${bookshelf[i].title}<br/>${bookshelf[i].author}</span> </div>
         <div class="col-6" id="btn_column" style="display:flex; flex-direction:column">
                 <button class="option" style="width:50%" id="buyBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Buy</button>
                 <button class="option" style="width:50%" id="borrowBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Borrow</button>
