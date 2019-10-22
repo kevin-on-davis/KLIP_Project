@@ -1,0 +1,93 @@
+
+.holy-grail-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1fr;
+    -ms-grid-rows: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 20px;
+    height: 100vh;
+}
+  
+@media screen and (max-width: 60em) {
+    .holy-grail-grid {
+        -ms-grid-rows: 2fr 1fr 5fr 1fr;
+        grid-template-rows: 2fr 1fr 5fr 1fr;
+    }
+}
+  
+.holy-grail-header,
+.holy-grail-left,
+.holy-grail-right,
+.holy-grail-footer {
+    padding: 1rem;
+    background-color: #d4d9de61;
+    border-radius: 10px;
+}
+  
+.holy-grail-header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    text-align: center;
+    background: url("./bookshelf5.jpeg") 50%;
+}
+  
+@media screen and (max-width: 60em) {
+    .holy-grail-left {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
+  
+@media screen and (max-width: 60em) {
+    .holy-grail-right {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+  
+.holy-grail-footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: white;
+    color: lightgray;
+}
+
+h2, h3, h5 {
+    text-align: center;
+}
+
+h2{
+    font-family: 'Tajawal', sans-serif;
+}
+
+h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, button {
+    font-family: 'Roboto', sans-serif;
+}
+  
+hr {
+    width: 90%;
+    border: 0.5px solid #cacaca;
+}
+
+#header {
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 40px; 
+    text-decoration-line: none;
+}
+
+button {
+    color: rgba(151, 151, 151, 0.986);
+    align-content: center;
+}

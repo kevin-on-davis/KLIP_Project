@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bookshelf.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto|Tajawal&display=swap" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
     <title>Bookshelf</title>
 </head>
 <body>
@@ -41,23 +43,8 @@
                   
         <div class="holy-grail-right">
             <h3>My Bookshelf
-                <select id="booksellers" name="booksellers" style="display:none">
-                        <option class="bookstore">Indigo</option>
-                        <option class="bookstore">Amazon</option>
-                        <option class="bookstore">Ebay</option>
-                        <option class="bookstore">Book Outlet</option>
-                        <option class="bookstore">Books-a-Million (BAM)</option>
-                        <option class="bookstore">Better World Books</option>
-                        <option class="bookstore">Kobo</option>
-                </select>
             </h3>
-            <div id="savedBook">
-                <!-- <p id="savedTitle"></p>
-                <p id="savedAuthor"></p>
-                <button id="purchase">Purchase</button>
-                <button id="borrow">Borrow</button>
-                <button id="delete">Delete</button> -->
-            </div>  
+        <div id="savedBook"></div>  
             <br>          
            <div id='map' style="display : none"></div>
         </div>

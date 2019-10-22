@@ -1,12 +1,5 @@
-/* #header {
-    background-image: url("./Bookshelf Logo.png");
-    color: white;
-
-} */
-
-
 .hero-section {
-    background: url("./bookshelf.png") 50% no-repeat;
+    background: url("./bookshelf5.jpeg") 50% no-repeat;
     background-size: cover;
     height: 60vh;
     text-align: center;
@@ -19,35 +12,37 @@
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
+    border-radius: 10px;
 }
   
 .hero-section .hero-section-text {
     color: #fefefe;
-    text-shadow: 1px 1px 2px #0a0a0a;
 }
-   
-
+     
 .animated-search-form[type=search] {
-    width: 10rem;
+    width: 250px;
     border: 0.125rem solid #e6e6e6;
-    box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
     border-radius: 0;
-    background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png");
+    /* background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png"); */
     background-position: 0.625rem 0.625rem;
     background-repeat: no-repeat;
     padding: 0.75rem 1.25rem 0.75rem 2rem;
     transition: width 0.4s ease-in-out;
+    align-content: center;
+    border-radius: 10px;
 }
   
 .animated-search-form[type=search]:focus {
     width: 100%;
+    align-content: center;
+    border-radius: 10px;
 }
   
-
 .about-the-author {
     background-color: #fefefe;
     padding: 1rem;
-    border: 1px solid #cacaca;
+    border-radius: 10px;
+    background-color: #d4d9de61
 }
   
 .about-the-author .separator-left {
@@ -72,7 +67,7 @@
 .about-the-author .separator-left::after {
     position: relative;
     width: 5rem;
-    border-bottom: 0.125rem solid #1779ba;
+    border-bottom: 0.125rem solid #cacaca;
     margin: 0.3rem auto 0;
     margin-left: 0;
 }
@@ -90,27 +85,36 @@
 .about-the-author .author-social .fa-stack {
     display: inline-block;
 }
-  
-  
-.about-the-author .author-image {
-    border: 1px solid #cacaca;
-}
-  
-    
-/* h1 {
-    text-align: center;
-}
 
 #container {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 hr {
     width: 90%;
+    border: 0.5px solid #cacaca;
+}
+
+h5 {
+    font-size: 17px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Tajawal', sans-serif;
 }
 
 footer {
     text-align: center;
     color: lightgray;
-} */
+}
+
+h7 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 12px;    
+}
+
+
+  

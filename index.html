@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto|Tajawal&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <title>Bookshelf</title>
 </head>
 <body>
@@ -12,57 +15,37 @@
     <div class="hero-section">
         <div class="hero-section-text">
           <h1>Bookshelf</h1>
-          <h5></h5>
+          <h5>Find your next great read.</h5>
+          <input type="search" name="search" onkeyup="test()" placeholder="Search author, title or genre..." class="animated-search-form" id="searchTermInput">
         </div>
     </div>
-      
-    <input type="search" name="search" placeholder="Search author, title or genre..." class="animated-search-form">
-
-    <div class="about-the-author">
-        <h3 class="author-title"></h3>
-        <div class="row">
+     
+    <br>
+     
+    <div class="about-the-author" id="bookInfo" style="display : none">
+        <!-- <div class="small-12 medium-4 columns">
+            <div class="author-image">
+              <img id="frontCover" src="http://books.google.com/books/content?id=OOVvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api">
+      </div> -->
+    </div>
+        <!-- <div class="row">
           <div class="small-12 medium-4 columns">
             <div class="author-image">
-              <img src="">
+              <img id="frontCover" src="">
             </div>
           </div>
           <div class="small-12 medium-8 columns">
-            <h4 class="separator-left"></h4>
-            <p></p>
+            <h5 id="title"></h5>
+            <h7 id="author"></h7>
           </div>
-        </div>
+        </div> -->
     </div>
-      
-      
-      
-        
-      
-
-    <!-- <div class="container">
-        <div class="row">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" id="searchTermInput" placeholder="Seach title, author or genre" aria-label="search" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="resultsList">
-            <div class="bookPreview" id="title"></div>
-            <div class="bookPreview" id="author"></div>
-            <div class="bookPreview" id="frontCover"></div>           
-        </div>
-    </div> -->
-
-    <hr>
-    
+  
     <footer class="footer">
-        Made by Patrick, Kevin, Idris & Linda
+      <hr>
+      <h5>KLIP &copy;</h5>
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="//books.google.com/books/previewlib.js"></script> -->
-    <script src="script.js"></script>    
 </body>
+<script type="text/javascript" src="https://books.google.com/books/previewlib.js"></script>
+    
 </html>

@@ -24,7 +24,7 @@ function manageBookShelf()
     $("#savedBook").empty();
     for (i=0; i < bookshelf.length; i++)
     {
-        $("#savedBook").append(`<div class="col-6"><img src="${bookshelf[i].frontCover}" width="150px"><br/><span style="display:flex">${bookshelf[i].title}<br/>${bookshelf[i].author}</span> </div>
+        $("#savedBook").append(`<div id="shelfitem" class="col-6"><img src="${bookshelf[i].frontCover}" width="150px"><br/><span style="display:flex">${bookshelf[i].title}<br/>${bookshelf[i].author}</span> </div>
         <div class="col-6" id="btn_column" style="display:flex; flex-direction:column">
                 <button class="option" style="width:50%" id="buyBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Buy</button>
                 <button class="option" style="width:50%" id="borrowBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Borrow</button>
@@ -41,9 +41,9 @@ function manageBookShelf()
 var btn_options = $("#savedBook");
 var lst_bookseller = $("#booksellers");
 
-lst_bookseller.on("click", "option", function(event)
+lst_bookseller.on("click", ".bookstore", function()
 {
-    alert(this);
+    alert("Option chosen "+ lst_bookseller[0].innerHTML);
 });
 
 btn_options.on("click", ".option", function()
@@ -52,7 +52,16 @@ btn_options.on("click", ".option", function()
 
     if (this.id.toLowerCase() == "buybook")
     {
-        if ($("#booksellers").css("display") == "none")
+        $("#shelfitem").append(`<select id="booksellers" name="booksellers" style="display:none">
+            <option class="bookstore" value="">Indigo</option>
+            <option class="bookstore" value="">Amazon</option>
+            <option class="bookstore" value="">Ebay</option>
+            <option class="bookstore" value="">Book Outlet</option>
+            <option class="bookstore" value="">Books-a-Million (BAM)</option>
+            <option class="bookstore" value="">Better World Books</option>
+            <option class="bookstore" value="">Kobo</option>
+        </select>`);
+if ($("#booksellers").css("display") == "none")
         {
             $("#booksellers").css("display", "block");
         }
@@ -75,14 +84,12 @@ btn_options.on("click", ".option", function()
         if (this.value == 0)
         {
             var elmnt_hldr = bookshelf.shift();
-            console.log("There "+this.value );
             localStorage.setItem("myBookShelf", JSON.stringify(bookshelf));
             manageBookShelf();
         }
         else
         {
             var modArr = bookshelf.filter(book => bookshelf.indexOf(book) != this.value);
-            alert(this.value);
             localStorage.setItem("myBookShelf", JSON.stringify(modArr));
             manageBookShelf();
         }
@@ -106,16 +113,16 @@ function getMyLocationURL()
             longitude = pos.coords.longitude;
             latitude = pos.coords.latitude;
 
-            // mapboxgl.accessToken = api_key;
-            // var map = new mapboxgl.Map(
-            // {
-            //     container: 'map', // container id
-            //     style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-            //     center: [longitude, latitude], // starting position [lng, lat]
-            //     zoom: 16, // starting zoom
-            //     // zoom: 12, // starting zoom
-            // }
-            // );
+            mapboxgl.accessToken = api_key;
+            var map = new mapboxgl.Map(
+            {
+                container: 'map', // container id
+                style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+                center: [longitude, latitude], // starting position [lng, lat]
+                zoom: 16, // starting zoom
+                // zoom: 12, // starting zoom
+            }
+            );
 
             // var marker_0 = new mapboxgl.Marker().setLngLat([longitude, latitude]).addTo(map);
         }
