@@ -111,7 +111,7 @@ function loadBookShelf()
                 <button class="option" style="width:20%" id="buyBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Buy</button>
                 <button class="option" style="width:20%" id="borrowBook" value="${bookshelf[i].author} ${bookshelf[i].title}">Borrow</button>
                 <button class="option" style="width:20%" id="showMap" value="${bookshelf[i].title}+${bookshelf[i].author}">Map</button>
-                <button class="option" style="width:20%" id="deleteBook" value="${i}">X</button><br/>
+                <button class="option" style="width:20%" id="deleteBook" value="${i}">Delete</button><br/>
         </div>`);
     }
 };
